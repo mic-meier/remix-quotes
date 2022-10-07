@@ -2,7 +2,7 @@ const NewQuotesRoute = () => {
   return (
     <div>
       <p>Add a new quote</p>
-      <form>
+      <form className="flex flex-col gap-4 w-full">
         <div>
           <label htmlFor="content">Quote</label>
           <textarea name="content" id="content" />

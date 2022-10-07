@@ -14,7 +14,7 @@ export default function App() {
         <title>Quotinator</title>
         <Links />
       </head>
-      <body>
+      <body className="min-h-screen">
         <Outlet />
         <LiveReload />
       </body>
